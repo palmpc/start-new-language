@@ -1,15 +1,5 @@
 
-class Person{
-	
-	// class
-	// 1. data
-	// 2. Methods
-	
-	// Instance variables
-	String name;
-	String bloodType;
-	
-}
+
 
 
 public class Application {
@@ -17,7 +7,7 @@ public class Application {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Person person1 = new Person();
+/*		Person person1 = new Person();
 		
 		person1.name = "Rin";
 		person1.bloodType = "O";
@@ -28,6 +18,27 @@ public class Application {
 		
 		System.out.println(person1.name);
 		System.out.println(person2.name);
+		
+		person1.speak();*/
+		
+/*		
+		Person person1 = new Person();
+		String myName = person1.getName();
+		int myAge = person1.getAge()+10;
+		
+		System.out.println(myAge);
+		*/
+		
+		
+/*		Calculator cal1 = new Calculator();
+		
+		int an = cal1.add(10, 20);
+		
+		System.out.println(an);*/
+		
+		Person person1 = new Person();
+		
+		person1.speak("Jera", "B");
 		
 		
 	}		
