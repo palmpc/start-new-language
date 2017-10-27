@@ -1,27 +1,35 @@
 
+class Person{
+	
+	// class
+	// 1. data
+	// 2. Methods
+	
+	// Instance variables
+	String name;
+	String bloodType;
+	
+}
+
+
 public class Application {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		Person person1 = new Person();
 		
-		int[][] numbers = {
-				{2,3,20},
-				{1,3,10},
-				{100, 200, 400}
-		};
+		person1.name = "Rin";
+		person1.bloodType = "O";
 		
-		for ( int x = 0; x < numbers.length; x++) {
-			
-			for( int i = 0; i < numbers[x].length; i++) {
-				System.out.println(numbers[x][i]);
-			}
-		}
-	}	
-	
-
-	
-	
-	
+		Person person2 = new Person();
+		person2.name = "Jera";
+		person2.bloodType = "B";
+		
+		System.out.println(person1.name);
+		System.out.println(person2.name);
+		
+		
+	}		
 }
 		
