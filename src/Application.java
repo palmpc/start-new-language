@@ -36,9 +36,17 @@ public class Application {
 		
 		System.out.println(an);*/
 		
-		Person person1 = new Person();
+/*		Person person1 = new Person();
 		
-		person1.speak("Jera", "B");
+		person1.speak("Jera", "B");*/
+		
+		/*User user1 = new User();
+		
+		user1.setUserName("�迵ȯ");
+		System.out.println(user1.getUserName());*/
+		
+		User user1 = new User("Kim young hwan", 2);
+		
 		
 		
 	}		
